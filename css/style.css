@@ -33,13 +33,19 @@
   justify-content: center;
   align-content: center;
 }
-.catSelection h1, ul {
+.catSelection h1{
   padding: 20px;
   list-style: none;
 }
-.catSelection li {
-  text-align: center;
+.catSelection ul{
+  padding: 20px;
+  list-style: disc;
+  
+}
+.catSelection_modal ul li {
+  text-align: left;
   padding: 5px;
+  margin-left: 20px;
 }
 .catItem:hover {
   background-color: var(--link-blue);
@@ -47,7 +53,7 @@
   cursor: pointer;
   color: var(--light-gray);
 }
-.catSelection_modal, .instructions {
+.catSelection_mod, .instructions{
   border-top: 5px solid var(--modal-orange);
   background-color: rgb(243, 243, 243);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
